@@ -31,5 +31,24 @@ Instead of passive studying, I follow a **question-driven approach**:
 5. Convert insights into **well-structured articles**
 
 ---
+## 📂 Repository Structure
 
-# 📂 Repository Structure
+```text
+distributed-systems-learning/
+├── 01-foundations/        # Basics and core concepts
+├── 02-consistency/        # Consistency models & CAP
+├── 03-replication/        # Replication strategies
+├── 04-consensus/          # Raft, Paxos, leader election
+├── 05-fault-tolerance/    # Failures and recovery
+├── 06-design-patterns/    # System architecture patterns
+├── 07-security/           # Security in distributed systems
+├── 08-observability/      # Logging, tracing, metrics
+├── 09-system-analysis/    # Real-world systems (Dynamo, Spanner)
+│
+├── projects/              # Implementations
+│   ├── kv-store/
+│   └── raft/
+│
+├── articles/              # Clean publishable content
+└── notes/                 # Raw learning notes
+``
