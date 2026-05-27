@@ -26,3 +26,13 @@ Challenges & issues in DS
 Why do we even need to build DS?
 - Technological advancements require systems to be able to handler huge amount computations that are requested by users
 - to utilize new technologies
+
+
+What kinds of benefits should a DS provide to us?
+- Resource sharing
+- Location transparency: User should not know where the resource actually resides
+- Migration & relocation transparency: Resources can be moved without interrupting users
+- Replication transparency: user should not know that resources are copied in many places
+- Failure transparency: When failures happens, user should be able to continue its demands and don't notice failure. Failure should recover automatically.
+- DS provide services that is dependable: Available and working at any given moment, Reliable -> working correctly over a long period of time, Maintaiable -> easy to fix and repair fast
+- Scalablity: Scalability in Size -> more users - more requests - more power needed, location -> systems component far from each other and organizational scalability should be handled.
