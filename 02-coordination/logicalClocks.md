@@ -21,6 +21,7 @@ So, Lamport's logical clock cannot detect causalities.
 Inorder to detect causalities we need vector clocks
 
 How does it work?
+
 Vector clock works by maintinig a vector for each process in the following way: 
 - Each process mainatains a vector containing n entries for n processes
 - A process Pi contains the number of events happened locally in the ith position of the vector.
