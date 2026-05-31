@@ -13,3 +13,6 @@ Now let's talk about common issues in this challenging topic. Coordination is a 
  - Each computing node has its own local clock -> their clocks are not usually synchronized
  - If two processes do not interact with each other, there is no need to agree on a time.
  - Most process don't care about exact absolute time, but the relative ordering of events among processes is much more attractive to them -> LOGICAL CLOCK.
+
+##### Resource Sharing Issues
+Concurrent processing in distributed systems is a typical feature. Imagine what would happen if two processes get access to a shared resource exactly at the same time. If we cannot avoid such accident then we will have corrupt and inconsistence resources in the system.
